@@ -1,0 +1,92 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+@font-face {
+	font-family: zagfontregular;
+	src: url(./zagfont/ZagRegular.otf);
+}
+@font-face {
+	font-family: zagfontbold;
+	src: url(./zagfont/ZagBold.otf);
+}
+@font-face {
+	font-family: ZnikomitNo24;
+	src: url(./zagfont/ZnikomitNo24.otf);
+}
+html, body, .main {
+	height: 100%;
+}
+.cd-fixed-bg {
+	min-height: 100%;
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.cd-fixed-bg.cd-bg-1 {
+	background-image: url(./bg1.jpg); 
+}
+.cd-fixed-bg.cd-bg-2 {
+	background-image: url(./bg2.jpg);
+}
+.cd-fixed-bg.cd-bg-3 {
+	background-image: url(./bg3.jpg);
+}
+.cd-fixed-bg.cd-bg-4 {
+	background-image: url(./bg4.jpg);
+}
+.cd-fixed-bg.cd-bg-5 {
+	background-image: url(./bg5.jpg);
+}
+.cd-fixed-bg .txt {
+	width: 100%;
+	position: absolute;
+	text-align: center;
+	top: 50%;
+	margin-top: -40px;
+	bottom: 0;
+}
+.cd-fixed-bg .txt h1{
+	color: #fff;
+	font-size: 60px;
+	font-family: ZnikomitNo24;
+}
+.cd-scrolling-bg .cd-container{
+	width: 45%;
+	margin: 0 auto;
+	padding-top: 80px;
+}
+.cd-scrolling-bg .cd-container p{
+	font-size: 20px;
+	color: #fff;
+	padding-bottom: 20px;
+	font-family: zagfontregular;
+	line-height: 40px;
+}
+.cd-scrolling-bg .color1 p{
+	color: #332D1D;
+}
+.cd-scrolling-bg .cd-container p.end{
+	text-align: center;
+	line-height: 100px;
+	font-family: ZnikomitNo24;
+	font-size: 50px;
+	margin-top: 150px;
+}
+.cd-scrolling-bg.scrolling-bg-1{
+	height: 800px;
+	background: #99a478;
+}
+.cd-scrolling-bg.scrolling-bg-2{
+	height: 800px;
+	background: rgb(89,61,67);
+}
+.cd-scrolling-bg.scrolling-bg-3{
+	height: 800px;
+	background: rgb(56,13,49);
+}
+.cd-scrolling-bg.scrolling-bg-4{
+	height: 800px;
+	background: rgb(114,111,128);
+}
